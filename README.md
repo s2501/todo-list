@@ -27,7 +27,7 @@ https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
 
 
 ```sh
-$ git clone https://github.com/s2501/ng-2-lab-es5
+$ git clone https://github.com/s2501/todo-list
 ```
 
 ####2.  Make sure you have [npm](https://www.npmjs.org/) installed globally
