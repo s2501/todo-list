@@ -4,7 +4,7 @@
 
 ======================================================
 
-## Playing and tinkering with Angular 2 Tour of Heroes and ES5
+## Playing and tinkering with Angular 2 and building a simple TODO: list and ES5
 
 Purpose of the project is to be used as a reference on how you can work 
 with ES5 and Angular 2. Personally learned a lot about TypeScript.
@@ -17,6 +17,7 @@ stating the facts plain and simple as they are in 2016.
 - Angular 2
 - ES5
 - Node.js
+- materializecss
 
 **Styleguide**
 https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
@@ -61,6 +62,7 @@ $ npm start
 - [RxJS Gist](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) 
 - [RxJS, Read all you can](http://reactivex.io/rxjs/manual/overview.html) 
 - [Soundcloud... lots of it](https://soundcloud.com)
+- [materializecss](http://materializecss.com)
 
 ### Known issues 
 
