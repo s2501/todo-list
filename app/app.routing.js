@@ -18,6 +18,10 @@
             component: app.addHeroComponent
         },
         {
+            path: 'documents',
+            component: app.DocumentListComponent
+        },
+        {
             path: '',
             redirectTo: '/dashboard',
             pathMatch: 'full'

@@ -1,0 +1,20 @@
+<div *ngFor="let hero of heroes" class="list-item-wrap" [class.done]="hero.done === true">
+    <!--<input type="checkbox" [checked]="hero.done">-->
+    <div [class.selected]="hero === selectedHero" class="collection with-header">
+        <p class="absolute-checkbox-wrap">
+            <input
+                    type="checkbox"
+                    id="doc_{{hero.id}}"
+                    class="filled-in"
+                    [checked]="hero.done"
+                    #documents
+                    (change)="onChange(hero, documents.checked)" />
+            <label [attr.for]="'doc_' + hero.id"></label>
+        </p>
+        <div class="collection-header"><h4>{{hero.name}}</h4></div>
+        <div class="collection-item" *ngFor="let item of hero.instructions">
+            <div>{{item.step}}</div>
+        </div>
+        <div class="collection-item">{{hero.dueDate}}</div>
+    </div>
+</div>

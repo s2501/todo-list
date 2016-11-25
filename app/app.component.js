@@ -9,7 +9,7 @@
 
                 var viewModel = this;
 
-                viewModel.title = "Tour of heroes";
+                viewModel.title = "TODO: list";
 
             }
 

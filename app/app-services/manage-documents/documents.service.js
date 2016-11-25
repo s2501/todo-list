@@ -1,13 +1,13 @@
 (function(app) {
 
-    app.HeroicServices = ng.core.Class({
+    app.DocumentsServices = ng.core.Class({
         constructor: [ng.http.Http, function(http) {
 
             var viewModel = this;
 
             viewModel.http = http;
 
-            viewModel.url = "http://583813a18405b21200fbd5c7.mockapi.io/vaccines/";
+            viewModel.url = "http://583813a18405b21200fbd5c7.mockapi.io/documents/";
             viewModel.headers = new Headers();
             viewModel.headers.append('Content-Type', 'application/json');
 
@@ -17,7 +17,7 @@
             var letsMakeAPromise = this.http.get(this.url)
                 .toPromise()
                 .then(function (response){
-                   return response.json();
+                    return response.json();
                 })
                 .catch(function(reason) {
                     console.log(reason);

@@ -10,6 +10,7 @@
             declarations: [
                 app.AppComponent,
                 app.HeroListComponent,
+                app.DocumentListComponent,
                 app.HeroDetailsComponent,
                 app.DashboardComponent,
                 app.HeroSearchComponent,
@@ -17,6 +18,7 @@
             ],
             providers: [
                 app.HeroicServices,
+                app.DocumentsServices,
                 app.SearchHeroesService
             ],
             bootstrap: [

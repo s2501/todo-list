@@ -1,9 +1,12 @@
 <h1>{{title}}</h1>
-<h2>My Heroes</h2>
 <nav>
-    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
-    <a routerLink="/add" routerLinkActive="active">Add Hero</a>
+    <div class="nav-wrapper">
+        <ul class="left">
+            <li><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></li>
+            <li><a routerLink="/heroes" routerLinkActive="active">Vaccines</a></li>
+            <li><a routerLink="/documents" routerLinkActive="active">Documents</a></li>
+        </ul>
+    </div>
 </nav>
 <router-outlet></router-outlet>
 <!--<my-heroes>Loading...</my-heroes>-->

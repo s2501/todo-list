@@ -58,6 +58,18 @@
                 var link = "detail/" + this.selectedHero.id;
 
                 this.router.navigateByUrl(link);
+            },
+            onChange: function(item, state){
+                item.done = state;
+
+                var viewModel = this;
+                viewModel.service.updateHero(item)
+                    .then(function (result){
+                        viewModel.getHeroes();
+                    })
+                    .catch(function(reason) {
+                        console.log(reason);
+                    });
             }
 
         });

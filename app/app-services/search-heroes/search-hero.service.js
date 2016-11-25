@@ -6,7 +6,7 @@
 
             viewModel.http = http;
 
-            viewModel.url = "http://57ed26849815a81100234d00.mockapi.io/v1/heroes?search=";
+            viewModel.url = "http://583813a18405b21200fbd5c7.mockapi.io/vaccines?search=";
             viewModel.headers = new Headers();
             viewModel.headers.append('Content-Type', 'application/json');
 
