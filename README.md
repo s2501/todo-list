@@ -4,7 +4,7 @@
 
 ======================================================
 
-## Playing and tinkering with Angular 2 and building a simple TODO: list and ES5
+## Playing and tinkering with Angular 2 and building a simple TODO: list with ES5
 
 Purpose of the project is to be used as a reference on how you can work 
 with ES5 and Angular 2. Personally learned a lot about TypeScript.
